@@ -1,0 +1,262 @@
+body {
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+  font-family: Arial,Sans-Serif;
+  margin: 0px;
+  padding: 0px;
+  background-image: url('body.jpeg');
+  color: white;
+}
+
+.Market-img-1 {
+  width: 125px; height: 170px;
+  border-radius: 0px;
+  transition: 2s;
+}
+
+.Market-img-2 {
+  width: 125px; height: 190px;
+  border-radius: 0px;
+  transition: 2s;
+}
+
+.Market-img-3 {
+  width: 125px; height: 170px;
+  border-radius: 0px;
+  transition: 2s;
+}
+
+.img-header {
+  width: 125px; height: 125px;
+  border-radius: 50%;
+}
+
+header {
+  text-align: center;
+  padding: 1em;
+}
+
+header div img {
+  transition:  border 1s;
+  border: 0px solid navy;
+}
+
+header div img:hover {
+  transition: border 1s;
+  border: 10px solid navy;
+}
+
+nav {
+  background: white;
+  width: 360px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  border-radius: 22px;
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.3);
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 30px;
+  border-radius: 22px;
+}
+
+nav a:hover {
+  transition: 0.25s;
+  background: navy;
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.link-app {
+  
+  width: 150px;
+  margin: 8px;
+  margin-top: 16px;
+  padding: 10px;
+  text-align: center;
+}
+
+.link-app a {
+  text-decoration: none;
+}
+
+.link-app:hover a h2 {
+  opacity: 1;
+  color: white;
+  cursor: pointer;
+  transition: opacity 1s;
+}
+
+.link-app:hover a p {
+  opacity: 1;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.25s;
+}
+
+h2 {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.dekripsi-app {
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.link-app img {
+  width: 50px; height: 50px;
+  border-radius: 50%;
+}
+
+.Market {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.content-1 {
+  background: gray;
+  margin-top: 16px;
+  border-radius: 30px;
+  display: flex;
+}
+
+.content-2 {
+  background: gray;
+  margin-top: 16px;
+  border-radius: 30px;
+  display: flex;
+}
+
+.content-3 {
+  background: gray;
+  margin-top: 16px;
+  border-radius: 30px;
+  display: flex;
+}
+
+.content-1-info {
+  width: 60vw;
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 0px;
+  transition: 2s;
+}
+
+.content-1:hover .Market-img-1 {
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.content-2:hover .Market-img-2 {
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.content-3:hover .Market-img-3 {
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.content-1:hover .content-1-info {
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.content-2:hover .content-2-info {
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.content-3:hover .content-3-info {
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.content-2-info {width: 60vw;
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 0px;
+  transition: 2s;
+}
+
+.content-3-info {
+  width: 60vw;
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 0px;
+  transition: 2s;
+}
+
+.content-1-info h3 {
+  text-align: center;
+}
+
+.content-2-info h3 {
+  text-align: center;
+}
+
+.content-3-info h3 {
+  text-align: center;
+}
+
+.content-1-info p {
+  position: relative;
+  left: 20px;
+  bottom: 20px;
+}
+
+.content-2-info p {
+  position: relative;
+  left: 20px;
+  bottom: 20px;
+}
+
+.content-3-info p {
+  position: relative;
+  left: 20px;
+  bottom: 20px;
+}
+
+button {
+  width: 70px;
+  padding: 8px;
+  position: relative;
+  left:140px;
+  bottom: 20px;
+  border-radius: 0px;
+  transition: 2s;
+}
+
+button a {
+  text-decoration: none;
+  color: black
+}
+
+button:hover {
+  border-radius: 10px;
+  transition: 0.5s;
+  background: orange;
+}
+
+button:hover a {
+  color: white;
+  transition: 0,25;
+}
+
